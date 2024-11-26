@@ -21,7 +21,6 @@ class Exercise
   # and the sum of its even numbers is (2 + 8) = 10
   def self.even_fibonacci(nth)
     # TODO: Implement this method
-    # Validate input
     if nth <= 0
 	return "Error: nth must be a non-negative integer greater than 0"
     end
